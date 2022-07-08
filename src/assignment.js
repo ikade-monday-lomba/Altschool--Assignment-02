@@ -16,8 +16,52 @@ const assignment = {};
 function sumOfNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
-
+const numbers = [
+    68,
+    -68,
+    27,
+    94,
+    72,
+    -25,
+    -51,
+    32,
+    10,
+    64,
+    -94,
+    4,
+    34,
+    -86,
+    90,
+    81,
+    20,
+    -56,
+    -91,
+    -50
+];
+function sumOfNumbers(
+    68,
+    -68,
+    27,
+    94,
+    72,
+    -25,
+    -51,
+    32,
+    10,
+    64,
+    -94,
+    4,
+    34,
+    -86,
+    90,
+    81,
+    20,
+    -56,
+    -91,
+    -50) {
+    return numbers.length;
+    console.log (sumOfNumbers)
+}
 /**
  * Challenge - 2
  * 
