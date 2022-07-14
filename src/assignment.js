@@ -43,6 +43,7 @@ var sum = numbers.reduce(function(a, b){
     return a + b;
 }, 0);
 console.log (sum);
+assignment.sumOfNumbers=sumOfNumbers
 /**
  * Challenge - 2
  * 
@@ -84,6 +85,7 @@ console.log (sum);
         return number % 2 === 0;
     })
     console.log(evenNumbers)
+assignment.countEvenNumbers=countEvenNumbers
 /**
  * Challenge - 3
  * 
