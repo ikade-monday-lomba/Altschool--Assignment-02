@@ -38,8 +38,7 @@ const numbers = [
     -91,
     -50
 ];
-       /*Challenge_1; using the "reduce()" method to find and calculate
-       the sum of the given array of numbers*/
+
 var sum = numbers.reduce(function(a, b){
     return a + b;
 }, 0);
@@ -80,10 +79,7 @@ console.log (sum);
         29,
         64
     ]
-    /* Challenge_2; returning all even numbers from the given array "digits" 
-by using the filter method, passsing in a function and verifying 
-there is no remainder on each iteration by dividing each number
-by 2*/
+    
     const evenNumbers = digits.filter(number =>{
         return number % 2 === 0;
     })
