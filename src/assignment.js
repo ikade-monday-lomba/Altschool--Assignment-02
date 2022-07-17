@@ -14,9 +14,9 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 const numbers = [
-    68,
+    67,
     -68,
-    27,
+    28,
     94,
     72,
     -25,
